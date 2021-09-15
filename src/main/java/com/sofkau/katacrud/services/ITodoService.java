@@ -2,7 +2,6 @@ package com.sofkau.katacrud.services;
 
 import com.sofkau.katacrud.entities.TodoEntity;
 
-import java.util.List;
 
 public interface ITodoService {
     public Iterable<TodoEntity> listTodo();

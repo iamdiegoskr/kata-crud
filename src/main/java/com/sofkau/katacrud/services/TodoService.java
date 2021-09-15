@@ -2,6 +2,7 @@ package com.sofkau.katacrud.services;
 
 import com.sofkau.katacrud.entities.TodoEntity;
 import com.sofkau.katacrud.repositories.ITodoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
 @Service
 public class TodoService implements ITodoService {
 
+    @Autowired
     private ITodoRepository repository;
 
     @Override
